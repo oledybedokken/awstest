@@ -1,0 +1,7 @@
+CREATE DATABASE aws_test;
+
+CREATE TABLE users
+(
+    id VARCHAR(50) PRIMARY KEY NOT NULL,
+    steam_name VARCHAR(50)
+);
